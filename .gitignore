@@ -1,0 +1,22 @@
+# Binaries
+tools_service/tools-service
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test / coverage
+*.test
+*.out
+coverage.html
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Env / secrets
+.env
+.env.*
+!.env.example
