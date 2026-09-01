@@ -63,6 +63,7 @@ jobs:
           sbom: false
           tags: |
             crpi-2bfqurta47ac6mca.cn-shenzhen.personal.cr.aliyuncs.com/kunio/tools:${{ github.sha }}
+            crpi-2bfqurta47ac6mca.cn-shenzhen.personal.cr.aliyuncs.com/kunio/tools:latest
           labels: |
             org.opencontainers.image.source=${{ github.repositoryUrl }}
             org.opencontainers.image.revision=${{ github.sha }}
